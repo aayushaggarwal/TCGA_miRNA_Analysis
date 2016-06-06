@@ -1,3 +1,6 @@
+##Code to analyze read_miRNA Expression Read Count Data of HCC Patients
+##It will differentially expressed miRNA's of Tumor vs Normal Pateins
+
 ##Loading Data
 cluster_mirna_tumor_rpm <- read.csv("read_count.csv",header=FALSE, row.names=1)
 library("DESeq")
